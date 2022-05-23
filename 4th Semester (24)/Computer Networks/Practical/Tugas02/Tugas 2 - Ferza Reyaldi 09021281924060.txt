@@ -1,0 +1,41 @@
+Link:
+https://youtu.be/AEuyunApJ1w
+
+No 1.8
+          Mac Address Table
+-------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       --------    -----
+
+No 1.12
+          Mac Address Table
+-------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       --------    -----
+
+   1    000c.85ee.6131    DYNAMIC     Fa0/1
+   1    0060.2f7b.3a47    DYNAMIC     Fa0/3
+
+No 1.13
+Hasil pada no 1.8 dan 1.12 berbeda dikarenakan pada saat melaksanakan perintah "sh mac-address-table" pada no 1.8 belum ada proses pertukaran pesan.
+
+No 1.14
+Karena Mac Address yang dipetakan oleh switch hanya Mac Address perangkat yang melakukan proses pertukaran pesan.
+
+No 2.9
+          Mac Address Table
+-------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       --------    -----
+
+   1    0002.173b.7d56    DYNAMIC     Fa0/2
+   1    000c.85a4.2302    DYNAMIC     Fa0/4
+   1    000c.85ee.6131    DYNAMIC     Fa0/1
+   1    0050.0f1e.30c6    DYNAMIC     Fa0/4
+   1    0060.2f7b.3a47    DYNAMIC     Fa0/3
+   1    0060.3eb4.a804    DYNAMIC     Fa0/4
+   1    00d0.d3c0.6904    DYNAMIC     Fa0/4
+   1    00e0.a34b.ea24    DYNAMIC     Fa0/4
