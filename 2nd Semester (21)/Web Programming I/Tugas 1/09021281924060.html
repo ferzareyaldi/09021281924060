@@ -1,0 +1,94 @@
+<!DOCTYPE>
+	<html>
+		<head>
+			<title> 01232020 - PWeb Tugas1 </title>
+		</head>
+		<body align="justify" style="margin: auto 27% auto 27%">
+			<h3 align="center">
+				<br><br><br><br>
+				BAB I
+				<br><br>
+				PENDAHULUAN
+				<br><br><br><br>
+			</h3>
+			
+			<b>1.1. Latar Belakang</b>	
+			<p style="text-indent: 0.3in">
+				Bertambahnya jumlah penduduk dan angka kelahiran yang terus meningkat setiap tahunnya tentu akan membuat penurunan taraf hidup rakyat dan bangsa. Maka dari itu pada tahun 1968 pemerintah meresmikan terobosan baru yaitu Keluarga Berencana (KB). Keluarga Berencana (KB) adalah gerakan untuk membentu keluarga kecil yang sehat dan sejahtera dengam membatasi kelahiran dan mengatur jarak kelahiran.
+			</p>
+
+			<p style="text-indent: 0.3in">
+				Pusat kesehatan masyarakat (Puskesmas) adalah salah satu tempat penyedia pelayanan Keluarga Berencana (KB), oleh karena itu komunikasi puskesmas dan masyarakat harus berjalan dengan baik agar informasi dapat disampaikan kepada masyarakat. Penyampaian Informasi Pelayanan KB di Puskesmas terkhususnya Puskesmas Sp.Padang masih disampaikan secara manual, yaitu dengan sebuah kertas untuk peserta KB dan sebuah buku untuk bidan yang menangani. Mengingat sebuah kertas mudah hilang sehingga tidak jarang peserta melupakan jadwal kembalinya untuk pelayanan KB berupa Suntik yang menyebabkan ketidakefisienan terhadap perserta dan bidan yang menangani, dan juga menyebabkan kehamilan yang belum diinginkan oleh ibu.
+			</p>
+
+			<p style="text-indent: 0.3in">
+				<i>Short Message Service</i> (SMS) adalah salah satu fasilitas yang dimiliki <i>handphone</i> dan memiliki kemampuan menyampaikan dan menerima informasi berupa pesan teks. SMS memiliki cakupan sinyal yang luas sehingga untuk di daerah-daerah terkhususnya daerah Sp.Padang sangat popular dan mudah untuk digunakan. Maka dari itu sangat baik jika memanfaatkan salah satu fasilitas ini untuk media penyampaian informasi kepada persrta KB yang ada diPuskesmas Sp.Padang.
+			</p>
+
+			<p style="text-indent: 0.3in">
+				Berdasarkan latar belakang yang telah dijelaskan dan yang telah dipaparkan maka penulis akan merancang sebuah perancangan notifikasi 2 pengingat jadwal berbasis SMS yang akan menjawab permasalahan pasien dan bidan yang menangaani di Puskesmas Sp.Padang. Oleh karna itu penulis membuat penelitian tugas akhir dengan judul <b>“NOTIFIKASI PENGINGAT JADWAL AKSEPTOR KB DI PUSKESMAS SP.PADANG BERBASIS SMS”</b>
+			</p><br>
+
+			<b>1.2. Tujuan</b>
+			<p style="text-indent: 0.3in">
+				Akhir ini dirancang untuk mengingatkan akseptor KB di Puskesmas Sp.Padang pada jadwal kembali suntik KB dengan menggunakan bahasa pemograman PHP, <i>MySql</i> dan gammu.
+			</p><br>
+
+			<b>1.3. Manfaat</b>
+			<p style="text-indent: 0.3in">
+				Adapun manfaat yang ingin didapat dari hasil penyusunan Tugas Akhir ini adalah sebagai berikut :
+				<ol type="1.">
+					<li>Membantu peserta KB mengingat jadwal kembali.</li>
+					<li>Memudahkan bidan mencari data informasi peserta KB.</li>
+					<li>Meningkatkan efisiensi karena berkurangnya waktu dan tenaga.</li>
+				</ol>
+			</p><br>
+
+			<b>1.4. Batasan Masalah</b>
+			<p style="text-indent: 0.3in">
+				Supaya pembahasan yang dilakukan oleh penulis lebih terfokus dan terarah serta tidak melenceng dari permasalahan pokok yang ada serta mencapai kesimpulan yang tepat dan terhubung dengan sistem yang ada, maka penulis membatasi ruang lingkup yang aka dibahas adalah :
+				<ol type="1.">
+					<li>
+						Sistem Informasi yang akan dibangun hanya sebatas profil puskesmas, data bidan/admin dan data peserta.
+					</li>
+					<li>
+						Bidan dapat menginput dan mengubah data peserta.
+					</li>
+					<li>
+						Peserta hanya mendapat SMS sebagai notifikasi pengingat.
+					</li>
+					<li>
+						Peserta hanya mendapat SMS pengingat tidak untuk dibalas
+					</li>
+				</ol>
+			</p><br>
+
+			<b>1.5. Sistematika Penulisan</b>
+			<p style="text-indent: 0.3in">
+				Untuk mempermudah penulisan, maka dalam sistem penulisan laporan akhir ini, penulis membuat sistematika penulisan sebagai berikut:
+			</p>
+
+			<p align="center">
+				<img src="algorithms.png" width="20%"><br>
+				Gambar 3.1 Diagram konteks sistem pengingat jadwal berbasis SMS<br><br>
+			</p>
+
+			<b>3.2.2 Data Flow Diagram (DFD level 1)</b>
+			<p style="text-indent: 0.3in">
+				Data Flow Diagram atau sering disebut dengan DFD Level 1, berisi tentang aliran data pada sistem notifikasi pengingat jadwal berbasis SMS. Terdapat 4 data yang diproses didalam sistem. Yaitu, registrasi bidan, login, kelola akseptor, kelola data penjadwalan.
+			</p>
+			<p style="text-indent: 0.3in">
+				Adapun Data Flow Diagram (DFD LV1) pada sistem notifikasi pengingat jadwal berbasis SMS di bawah ini.
+			</p>
+
+			<p align="center">
+				<img src="algorithms.png" width="40%"><br>
+				<b>Gambar 3.2 Data Flow Diagram sistem notifikasi pengingat jadwal berbasis SMS</b><br><br>
+			</p>
+			<b>3.2.3 <i>Entity Relationship Diagram (ERD)</i></b>
+			<p style="text-indent: 0.3in">
+				ERD adalah konseptual yang menjelaskan antara penyimpanan. ERD berfungsi untuk memoddelkan struktur data dan hubungan antar data
+			</p>
+
+		</body>
+	</html>
